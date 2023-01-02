@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table.users-list td {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+table.users-list {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 5px;
+}
+
+table.users-list tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+table.users-list tr:hover {
+  background: #ddd;
+}
+
+nav.navigation ul li {list-style: none;margin: 5px;}
+
+nav.navigation ul {
+    display: flex;
+}
+
+nav.navigation ul li a:hover {
+    color: #ff4500;
+}
